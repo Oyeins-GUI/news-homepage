@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
+</head>
+<body class="max_width">
+  <header role="heading" class="header">
+    <nav class="flex">
+      <img src="./assets/images/logo.svg" class="logo" alt="logo">
+      <ul class="nav_links">
+        <li class="link">
+          <a href="#">Home</a>
+        </li>
+        <li class="link">
+          <a href="#">New</a>
+        </li>
+        <li class="link">
+          <a href="#">Popular</a>
+        </li>
+        <li class="link">
+          <a href="#">Trending</a>
+        </li>
+        <li class="link">
+          <a href="#">Categories</a>
+        </li>
+      </ul>
+      <img src="./assets/images/icon-menu.svg" class="icon_menu" alt="icon-menu">
+    </nav>
+  </header>
+  <main role="main">
+    <section class="hero">
+      <article class="about">
+        <picture>
+          <source
+            media="(max-width:800px)"
+            srcset="./assets/images/image-web-3-mobile.jpg"
+          />
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="web3" />
+        </picture>
+        <div class="desc">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <div class="read_more">
+            <p>
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?
+            </p>
+            <button class="read_more_btn">READ MORE</button>
+          </div>
+        </div>
+      </article>
+      <article class="new">
+        <h2>New</h2>
+        <div class="new_blog">
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="new_blog">
+          <h3>The Downsides of AI Artistry</h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="new_blog">
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="laptops">
+      <article class="laptop">
+        <img src="./assets/images/image-retro-pcs.jpg" alt="retro-pcs">
+        <div>
+          <p class="number">01</p>
+          <h3>Reviving Retro PCs</h3>
+          <p class="info">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </article>
+      <article class="laptop">
+        <img src="./assets/images/image-top-laptops.jpg" alt="retro-pcs">
+        <div>
+          <p class="number">02</p>
+          <h3>Top 10 Laptops of 2022</h3>
+          <p class="info">Our best picks for various needs and budgets.</p>
+        </div>
+      </article>
+      <article class="laptop">
+        <img src="./assets/images/image-gaming-growth.jpg" alt="retro-pcs">
+        <div>
+          <p class="number">03</p>
+          <h3>The Growth of Gaming</h3>
+          <p class="info">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer role="doc-footnote" class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://twitter.com/@oyeinbomo" target="_blank">Oyeinbomo Opuene</a>.
+  </footer>
+</body>
+</html>
