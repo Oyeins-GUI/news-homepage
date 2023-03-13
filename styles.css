@@ -64,7 +64,7 @@ body {
 }
 
 .header {
-  padding: 1.5rem 0;
+  padding: 3rem 0;
 }
 
 .nav_links {
@@ -155,10 +155,10 @@ body {
 }
 
 .about h1 {
-  max-width: 280px;
+  max-width: 250px;
   margin: 1.25rem 0;
   color: var(--very-dark-blue);
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 800;
   line-height: 1;
 }
@@ -236,7 +236,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .laptop {
